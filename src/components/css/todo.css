@@ -1,0 +1,93 @@
+.maindiv{
+    position: relative;
+    width: 1519px;
+    height: auto;
+    background-color: rgb(222, 229, 228);
+}
+.childdiv1{
+    position: absolute;
+    width: 1519px;
+    height: 100px;
+    background-color: rgb(57, 250, 227);
+}
+.todoimg{
+    position: absolute;
+    width: 100px;
+    height: 80px;
+    left: 30px;
+    border-radius: 20px;
+    top: 10px;
+
+}
+.childdiv2{
+    position: absolute;
+    top: 120px;
+    left: 550px;
+    width: 500px;
+    height: auto;
+    background-color: rgb(222, 229, 228);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.inputfield{
+    position: absolute;
+    top: 50px;
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    border: 10;
+    left: 50px;
+}
+:hover.inputfield{
+    border-radius: 10px;
+}
+.btn{
+    position: absolute;
+    top: 90px;
+    left: 50px;
+    width: 90px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+}
+:hover.btn{
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
+.childdiv3{
+    position: absolute;
+    width: auto;
+    height: auto;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    color: white;
+    top: 150px;
+    left: 50px;
+}
+.editbtn{
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.deletebtn{
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+
+}
+:hover.deletebtn{
+    background-color: rgb(226, 55, 55);
+}
+:hover.editbtn{
+    background-color: rgb(109, 237, 109);
+}
+.childdiv4 {
+    display: flex;
+    justify-content: space-between;
+}
+
+li{
+    list-style-type: decimal;
+}
